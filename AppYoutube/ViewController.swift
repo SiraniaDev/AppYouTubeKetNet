@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         let button = UIButton()
         button.backgroundColor = .yellow
+        var i = 0
     }
 
 
