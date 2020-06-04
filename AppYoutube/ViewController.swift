@@ -9,13 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var model = Model()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         let button = UIButton()
         button.backgroundColor = .yellow
-        var i = 0
+        model.getVideos()
+        
     }
 
 

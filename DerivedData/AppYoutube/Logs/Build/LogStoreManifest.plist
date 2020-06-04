@@ -5,6 +5,211 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>679A3208-4CCE-4AD3-AC33-94B1ED7FBB4E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>679A3208-4CCE-4AD3-AC33-94B1ED7FBB4E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppYoutube project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppYoutube</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AppYoutube</string>
+			<key>timeStartedRecording</key>
+			<real>612971177.10761297</real>
+			<key>timeStoppedRecording</key>
+			<real>612971177.28318095</real>
+			<key>title</key>
+			<string>Build AppYoutube</string>
+			<key>uniqueIdentifier</key>
+			<string>679A3208-4CCE-4AD3-AC33-94B1ED7FBB4E</string>
+		</dict>
+		<key>6ADE373C-7EFD-462A-A8C5-97E98CF674CA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6ADE373C-7EFD-462A-A8C5-97E98CF674CA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppYoutube project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppYoutube</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AppYoutube</string>
+			<key>timeStartedRecording</key>
+			<real>612971230.14372599</real>
+			<key>timeStoppedRecording</key>
+			<real>612971230.18374097</real>
+			<key>title</key>
+			<string>Build AppYoutube</string>
+			<key>uniqueIdentifier</key>
+			<string>6ADE373C-7EFD-462A-A8C5-97E98CF674CA</string>
+		</dict>
+		<key>B61F43C4-BE2F-4786-A272-D7E22923D25C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B61F43C4-BE2F-4786-A272-D7E22923D25C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppYoutube project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppYoutube</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AppYoutube</string>
+			<key>timeStartedRecording</key>
+			<real>612970179.84653699</real>
+			<key>timeStoppedRecording</key>
+			<real>612970182.352108</real>
+			<key>title</key>
+			<string>Build AppYoutube</string>
+			<key>uniqueIdentifier</key>
+			<string>B61F43C4-BE2F-4786-A272-D7E22923D25C</string>
+		</dict>
+		<key>BE659C75-82A0-4AAB-938A-0D9029CC4D77</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BE659C75-82A0-4AAB-938A-0D9029CC4D77.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppYoutube project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppYoutube</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AppYoutube</string>
+			<key>timeStartedRecording</key>
+			<real>612958268.75063705</real>
+			<key>timeStoppedRecording</key>
+			<real>612958268.80091405</real>
+			<key>title</key>
+			<string>Build AppYoutube</string>
+			<key>uniqueIdentifier</key>
+			<string>BE659C75-82A0-4AAB-938A-0D9029CC4D77</string>
+		</dict>
+		<key>C97682CA-FB5C-47A4-AF19-99361DDD205C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C97682CA-FB5C-47A4-AF19-99361DDD205C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppYoutube project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppYoutube</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AppYoutube</string>
+			<key>timeStartedRecording</key>
+			<real>612971292.68813205</real>
+			<key>timeStoppedRecording</key>
+			<real>612971292.73474801</real>
+			<key>title</key>
+			<string>Build AppYoutube</string>
+			<key>uniqueIdentifier</key>
+			<string>C97682CA-FB5C-47A4-AF19-99361DDD205C</string>
+		</dict>
+		<key>D38A7E3C-9F75-480E-82D6-FF3FAD2B5E22</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D38A7E3C-9F75-480E-82D6-FF3FAD2B5E22.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppYoutube project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppYoutube</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AppYoutube</string>
+			<key>timeStartedRecording</key>
+			<real>612970960.49921203</real>
+			<key>timeStoppedRecording</key>
+			<real>612970960.57925403</real>
+			<key>title</key>
+			<string>Build AppYoutube</string>
+			<key>uniqueIdentifier</key>
+			<string>D38A7E3C-9F75-480E-82D6-FF3FAD2B5E22</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
