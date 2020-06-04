@@ -9,6 +9,7 @@ https://github.com
 https://www.bitrise.io/features/ios-features?utm_source=sponsorship_youtube&utm_medium=cpc&utm_campaign=codewithchris&utm_content=codewithchris2020_youtubeappseries
 
 concepts you’ll learn
+
 	✓	Networking
 	⁃	YouTube data API v3, iOS networking, JSON parsing
 
