@@ -27,7 +27,7 @@ To Do In Xcode:
 	1.	Créer Constants.Swift avec les KEy AccesAPI etc
 	⁃	PlayListItem From YouTube API=>
 	⁃	https://developers.google.com/youtube/v3/docs/playlistItems/list?apix_params=%7B%22part%22%3A%5B%22snippet%22%5D%2C%22playlistId%22%3A%22PLMRqhzcHGw1aLoz4pM_Mg2TewmJcMg9ua%22%7D
-	2.	Creer son app dans googleAPI=> add "YouTube Data API v3"=> creer Credentilas for API "AIzaSyAjPSnqmTCaiQ8jsfZgGAqLgHqvBzJP7zs" add to my Constants.swift
+	2.	Creer son app dans googleAPI=> add "YouTube Data API v3"=> creer Credentilas for API "XXXXXXXXXX" add to my Constants.swift
 	3.	Creer la classe sous xcode pour communiquer avec API
 	4.	Creer model Video
 	5.	Connectez a bitrise & Proxyman => code 200 
