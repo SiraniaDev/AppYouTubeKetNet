@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>ED3FB571-EC63-4094-988F-8D7F6B59688A</key>
+		<key>62540C8C-0A91-409A-BFA4-A25E712DABBC</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,24 +15,24 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>ED3FB571-EC63-4094-988F-8D7F6B59688A.xcactivitylog</string>
+			<string>62540C8C-0A91-409A-BFA4-A25E712DABBC.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>W</string>
 			</dict>
 			<key>signature</key>
 			<string>AppYoutube-fkbdoitlfydjqeaenplcxtajwjgn</string>
 			<key>timeStartedRecording</key>
-			<real>612970179.94935</real>
+			<real>613039371.76945305</real>
 			<key>timeStoppedRecording</key>
-			<real>612970182.32519996</real>
+			<real>613039373.29360402</real>
 			<key>title</key>
 			<string>Build target AppYoutube</string>
 			<key>uniqueIdentifier</key>
-			<string>ED3FB571-EC63-4094-988F-8D7F6B59688A</string>
+			<string>62540C8C-0A91-409A-BFA4-A25E712DABBC</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

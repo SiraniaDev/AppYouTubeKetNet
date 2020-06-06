@@ -30,7 +30,9 @@ class Model {
                 let decoder = JSONDecoder()
                 decoder.dateDecodingStrategy = .iso8601
                     let response = try decoder.decode(Response.self, from: data!)
+               // print(response.items)
                 dump(response)
+            
             }
             catch {
                 
