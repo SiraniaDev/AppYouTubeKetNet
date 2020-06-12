@@ -38,9 +38,9 @@ class ViewController: UIViewController {
     func fetchdata(){
         print("hello2")
         let url = URL(string: Constants.API_URL)
-        print(url!)
+        //print(url!)
         let session = URLSession.shared
-        print(session)
+        //print(session)
         let dataTask = session.dataTask(with: url!) { (data, response,error) in
             // check if there were any errors
             if error != nil || data == nil {
@@ -51,10 +51,11 @@ class ViewController: UIViewController {
                
                 let decoder = JSONDecoder()
                 decoder.dateDecodingStrategy = .iso8601
-                print(data!.count)
+               
                 let response = try decoder.decode(Response.self, from: data!)
                 self.videos = response.items!
-                print(self.videos.description)
+                 print(decoder)
+               // print(self.videos.description)
                 //videos.append(response.items)
                 dump(response)
              //   let dataSyring = data?.count
