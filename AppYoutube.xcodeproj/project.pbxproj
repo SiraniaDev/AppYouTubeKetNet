@@ -69,13 +69,13 @@
 			children = (
 				2471B6F92488444B00B471F8 /* AppDelegate.swift */,
 				2471B6FB2488444B00B471F8 /* SceneDelegate.swift */,
-				240ECF5C2488FC040006A449 /* Response.swift */,
 				2471B6FD2488444B00B471F8 /* ViewController.swift */,
 				2471B6FF2488444B00B471F8 /* Main.storyboard */,
 				2471B7022488445000B471F8 /* Assets.xcassets */,
 				2471B7042488445000B471F8 /* LaunchScreen.storyboard */,
 				2471B7072488445000B471F8 /* Info.plist */,
 				240ECF562488D0780006A449 /* Constants.swift */,
+				240ECF5C2488FC040006A449 /* Response.swift */,
 				240ECF582488D64D0006A449 /* Videos.swift */,
 				240ECF5A2488D6E30006A449 /* Model.swift */,
 			);
