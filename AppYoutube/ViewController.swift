@@ -53,13 +53,15 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
     // pour chaque cell afficher  contenu de la cell
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.VIDEO_ID, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.VIDEO_ID, for: indexPath) as? VideoTableViewCell
         //configure the cell with the data
         
-        let title = self.videos[indexPath.row].title
-        cell.textLabel?.text = title
+        //let title = self.videos[indexPath.row].title
+       // cell.textLabel?.text = title
+        let video = self.videos[indexPath.row]
+        cell?.setCell(video)
        // cell.t?.text = "okokoko"
-        return cell
+        return cell!
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
