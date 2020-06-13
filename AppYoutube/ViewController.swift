@@ -46,7 +46,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
           
        }
     
-    // MARK: - Model Delegate Methods
+   
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         videos.count
@@ -67,6 +67,23 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+           
+           // Confirm that a video was selected
+           guard tableView.indexPathForSelectedRow != nil else {
+               return
+           }
+           
+           // Get a reference to the video that was tapped on
+           let selectedVideo = videos[tableView.indexPathForSelectedRow!.row]
+           
+           // Get a reference to the detail view controller
+           let detailVC = segue.destination as! DetailsUIViewController
+           
+           // Set the video property of the detail view controller
+           detailVC.video = selectedVideo
+       }
 }
     
     
