@@ -30,6 +30,11 @@ class VideoTableViewCell: UITableViewCell {
 func setCell(_ v:Video) {
         
         self.video = v
+       
+       thumbnailsImage.layer.borderColor = UIColor.yellow.cgColor
+          thumbnailsImage.layer.borderWidth = 5.0
+          thumbnailsImage.clipsToBounds = true
+          thumbnailsImage.layer.cornerRadius = 30
         
         // Ensure that we have a video
         guard self.video != nil else {

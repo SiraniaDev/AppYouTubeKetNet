@@ -1,0 +1,6 @@
+module Pods_AppYoutube {
+  umbrella header "Pods-AppYoutube-umbrella.h"
+
+  export *
+  module * { export * }
+}
