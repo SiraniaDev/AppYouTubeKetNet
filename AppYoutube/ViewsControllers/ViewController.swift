@@ -10,7 +10,7 @@ import UIKit
 
 
 
-class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate,ModelDelegate {
+class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate,ModelDelegate  {
    
     @IBOutlet weak var tableView: UITableView!
     

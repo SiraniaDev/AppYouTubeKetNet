@@ -10,24 +10,12 @@ import UIKit
 //import WMSegmentControl
 import BetterSegmentedControl
 import AVKit
-import GoogleSignIn
+//import GoogleSignIn
 import AuthenticationServices
 import FBSDKLoginKit
 import FBSDKCoreKit
 
-class IndexViewController: UIViewController,GIDSignInDelegate,LoginButtonDelegate,ASAuthorizationControllerDelegate,ASAuthorizationControllerPresentationContextProviding {
-    
-    
-    
-    func presentationAnchor(for controller: ASAuthorizationController) -> ASPresentationAnchor {
-        return self.view.window!
-        
-    }
-    
-    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
-        
-    }
-    
+class IndexViewController: UIViewController,LoginButtonDelegate,ASAuthorizationControllerDelegate,ASAuthorizationControllerPresentationContextProviding {
     
     @IBOutlet weak var signUpButton: UIButton!
     
@@ -39,13 +27,39 @@ class IndexViewController: UIViewController,GIDSignInDelegate,LoginButtonDelegat
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // setUpVideo()
+        setUpVideo()
+        setupElements()
         setupappleStyledControl()
         setupGoogleButton()
         setupIDAppleButton()
         setupFacebookButton()
     }
-    
+    func setupElements(){
+      //Hide the error label
+//      errorLabel.alpha = 0
+//      // style element
+//      Utilities.styleTextField(emailTextField)
+//      Utilities.styleTextField(passwordTextField)
+        Utilities.styleFilledButton(loginButton)
+        Utilities.styleFilledButton(signUpButton)
+      }
+//    override func viewWillAppear(_ animated: Bool) {
+//           
+//           // Set up video in the background
+//           setUpVideo()
+//       }
+    func presentationAnchor(for controller: ASAuthorizationController) -> ASPresentationAnchor {
+        let homeViewController = self.storyboard?.instantiateViewController(withIdentifier: Constants.Storyboars.ViewController ) as? ViewController
+                       self.view.window?.rootViewController = homeViewController
+                       self.view.window?.makeKeyAndVisible()
+        return self.view.window!
+          //self.view.window? = ViewController
+          
+      }
+      
+//      func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+//
+//      }
     func setupappleStyledControl(){
         
         let appleStyledControl: BetterSegmentedControl = .appleStyled(frame: CGRect(x: 20,
@@ -54,15 +68,18 @@ class IndexViewController: UIViewController,GIDSignInDelegate,LoginButtonDelegat
                                                                                     height: 32.0),
                                                                       titles: ["First", "Second", "Third"])
         view.addSubview(appleStyledControl)
+        appleStyledControl.setIndex(1, animated: true)
     }
-    
+//    func indexChanged(_ sender: Any) {
+//        let index = self.appleStyledControl.selectedSegmentIndex()
+//    }
     
     
     func setUpVideo() {
         
         // Get the path to the resource in the bundle
-        let bundlePath = Bundle.main.path(forResource: "ketnet", ofType: "move")
-        // print(" \(bundlePath)")
+        let bundlePath = Bundle.main.path(forResource: "login", ofType: "mp4")
+        
         
         guard bundlePath != nil else {
             return
@@ -105,15 +122,15 @@ class IndexViewController: UIViewController,GIDSignInDelegate,LoginButtonDelegat
         customGoogleButton.setTitleColor(.white, for: .normal)
         customGoogleButton.setTitle("Custom  Google Sign In ", for: .normal)
         customGoogleButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
-        customGoogleButton.addTarget(self, action: #selector(sign), for: .touchUpInside)
+//        customGoogleButton.addTarget(self, action: #selector(sign), for: .touchUpInside)
         view.addSubview(customGoogleButton)
-        
-        
-        //  GIDSignIn.sharedInstance().presentingViewController = self
-        //GIDSignIn.sharedInstance().signIn()
-        
+//        
+//        
+//        //  GIDSignIn.sharedInstance().presentingViewController = self
+//        //GIDSignIn.sharedInstance().signIn()
+//        
+//    }
     }
-    
     func setupIDAppleButton() {
         let appleIDButton = ASAuthorizationAppleIDButton()
         // appleIDButton.translatesAutoresizingMaskInConstraints = false

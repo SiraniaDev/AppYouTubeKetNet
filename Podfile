@@ -6,5 +6,5 @@ target 'AppYoutube' do
   pod 'BetterSegmentedControl', '~> 1.3'
   pod 'Firebase/Auth'
    pod 'FBSDKLoginKit'
-   pod 'GoogleSignIn'
+ # pod 'GoogleSignIn'
 end
