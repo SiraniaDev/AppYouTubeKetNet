@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="J6w-KY-OOs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="J6w-KY-OOs">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -11,6 +10,10 @@
         <scene sceneID="tET-uK-xLf">
             <objects>
                 <viewController id="4cQ-sn-Uus" customClass="IndexViewController" customModule="AppYoutube" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Apy-eD-Rlx"/>
+                        <viewControllerLayoutGuide type="bottom" id="TYA-Xe-NsN"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gve-gp-ddS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -18,7 +21,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="clP-WP-wP4">
                                 <rect key="frame" x="100" y="755" width="214" height="87"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bkp-t3-dMY">
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bkp-t3-dMY">
                                         <rect key="frame" x="0.0" y="0.0" width="214" height="34"/>
                                         <fontDescription key="fontDescription" name="AppleSymbols" family="Apple Symbols" pointSize="23"/>
                                         <state key="normal" title="Sign up">
@@ -38,13 +41,13 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.40449079869999999" green="0.10254859180000001" blue="0.4588487148" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.29041796920000001" green="0.75999587769999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="uVs-px-S7I" firstAttribute="bottom" secondItem="clP-WP-wP4" secondAttribute="bottom" constant="20" id="779-jY-j9f"/>
-                            <constraint firstItem="uVs-px-S7I" firstAttribute="trailing" secondItem="clP-WP-wP4" secondAttribute="trailing" constant="100" id="LAJ-QN-8sk"/>
-                            <constraint firstItem="clP-WP-wP4" firstAttribute="leading" secondItem="uVs-px-S7I" secondAttribute="leading" constant="100" id="VGM-57-Wh7"/>
+                            <constraint firstItem="TYA-Xe-NsN" firstAttribute="top" secondItem="clP-WP-wP4" secondAttribute="bottom" constant="20" id="779-jY-j9f"/>
+                            <constraint firstAttribute="trailing" secondItem="clP-WP-wP4" secondAttribute="trailing" constant="100" id="LAJ-QN-8sk"/>
+                            <constraint firstItem="clP-WP-wP4" firstAttribute="leading" secondItem="gve-gp-ddS" secondAttribute="leading" constant="100" id="VGM-57-Wh7"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="uVs-px-S7I"/>
                     </view>
                     <navigationItem key="navigationItem" id="VJV-xV-MEk"/>
                     <connections>
@@ -60,16 +63,21 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="HomeVC" id="BYZ-38-t0r" customClass="ViewController" customModule="AppYoutube" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1RY-Yo-0xf"/>
+                        <viewControllerLayoutGuide type="bottom" id="jjh-6e-KeB"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3bt-jH-8vW">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3bt-jH-8vW">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" red="0.30324992540000001" green="0.8344134688" blue="0.95233446359999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.27227777530000002" green="0.76543268959999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VideoCell" rowHeight="343" id="h83-ry-xGA" customClass="VideoTableViewCell" customModule="AppYoutube" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VideoCell" rowHeight="343" id="h83-ry-xGA" customClass="VideoTableViewCell" customModule="AppYoutube" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="343"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="h83-ry-xGA" id="CsL-M7-8ra">
@@ -129,13 +137,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.30992093679999999" green="0.85790026190000002" blue="0.98001521830000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3bt-jH-8vW" secondAttribute="trailing" id="L4q-kQ-ZCm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3bt-jH-8vW" secondAttribute="bottom" id="VNB-eP-cNY"/>
-                            <constraint firstItem="3bt-jH-8vW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ap7-70-6RN"/>
-                            <constraint firstItem="3bt-jH-8vW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="b19-ki-aW7"/>
-                            <constraint firstItem="3bt-jH-8vW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="i5v-eK-0b1"/>
+                            <constraint firstAttribute="trailing" secondItem="3bt-jH-8vW" secondAttribute="trailing" id="L4q-kQ-ZCm"/>
+                            <constraint firstItem="jjh-6e-KeB" firstAttribute="top" secondItem="3bt-jH-8vW" secondAttribute="bottom" id="VNB-eP-cNY"/>
+                            <constraint firstItem="3bt-jH-8vW" firstAttribute="top" secondItem="1RY-Yo-0xf" secondAttribute="bottom" id="ap7-70-6RN"/>
+                            <constraint firstItem="3bt-jH-8vW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="b19-ki-aW7"/>
+                            <constraint firstItem="3bt-jH-8vW" firstAttribute="top" secondItem="1RY-Yo-0xf" secondAttribute="bottom" id="i5v-eK-0b1"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Wizzy &amp; Woppy" image="command" catalog="system" id="r6k-iY-LoJ"/>
                     <navigationItem key="navigationItem" id="au4-zg-Fda"/>
@@ -151,6 +158,10 @@
         <scene sceneID="Fzw-tP-hth">
             <objects>
                 <viewController id="7G0-dP-XiM" customClass="DetailsUIViewController" customModule="AppYoutube" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QmP-5N-UcL"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dqy-qb-9WZ"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="c68-4s-KXM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -194,12 +205,11 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="INU-g5-Xrt" firstAttribute="trailing" secondItem="DH6-98-VL6" secondAttribute="trailing" id="F8a-2u-XYC"/>
-                            <constraint firstItem="DH6-98-VL6" firstAttribute="leading" secondItem="INU-g5-Xrt" secondAttribute="leading" id="YHT-Rs-WXM"/>
-                            <constraint firstItem="INU-g5-Xrt" firstAttribute="bottom" secondItem="DH6-98-VL6" secondAttribute="bottom" id="ZR6-uW-HZV"/>
-                            <constraint firstItem="DH6-98-VL6" firstAttribute="top" secondItem="INU-g5-Xrt" secondAttribute="top" id="pnC-dw-qIt"/>
+                            <constraint firstAttribute="trailing" secondItem="DH6-98-VL6" secondAttribute="trailing" id="F8a-2u-XYC"/>
+                            <constraint firstItem="DH6-98-VL6" firstAttribute="leading" secondItem="c68-4s-KXM" secondAttribute="leading" id="YHT-Rs-WXM"/>
+                            <constraint firstItem="Dqy-qb-9WZ" firstAttribute="top" secondItem="DH6-98-VL6" secondAttribute="bottom" id="ZR6-uW-HZV"/>
+                            <constraint firstItem="DH6-98-VL6" firstAttribute="top" secondItem="QmP-5N-UcL" secondAttribute="bottom" id="pnC-dw-qIt"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="INU-g5-Xrt"/>
                     </view>
                     <navigationItem key="navigationItem" id="XVy-xf-jcU"/>
                     <connections>
@@ -255,11 +265,15 @@
         <scene sceneID="e1F-7O-7rE">
             <objects>
                 <viewController id="lpD-yF-d30" customClass="ViewController2" customModule="AppYoutube" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v6U-Bg-inS"/>
+                        <viewControllerLayoutGuide type="bottom" id="lfW-zY-Ut0"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kqT-18-Qei">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="black" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" separatorInsetReference="fromAutomaticInsets" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qVz-hG-FaX">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="black" dataMode="prototypes" style="plain" separatorStyle="none" separatorInsetReference="fromAutomaticInsets" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qVz-hG-FaX">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" red="0.87103017069999999" green="0.323279068" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.27227777530000002" green="0.76543268959999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -323,13 +337,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="qVz-hG-FaX" firstAttribute="top" secondItem="fEP-Sl-zhD" secondAttribute="top" id="0aS-gk-B41"/>
-                            <constraint firstItem="fEP-Sl-zhD" firstAttribute="trailing" secondItem="qVz-hG-FaX" secondAttribute="trailing" id="ADD-uE-roP"/>
-                            <constraint firstItem="qVz-hG-FaX" firstAttribute="top" secondItem="fEP-Sl-zhD" secondAttribute="top" id="Qct-fW-bmd"/>
-                            <constraint firstItem="qVz-hG-FaX" firstAttribute="leading" secondItem="fEP-Sl-zhD" secondAttribute="leading" id="RzP-I3-W6E"/>
-                            <constraint firstItem="fEP-Sl-zhD" firstAttribute="bottom" secondItem="qVz-hG-FaX" secondAttribute="bottom" id="SBl-Pd-JYu"/>
+                            <constraint firstItem="qVz-hG-FaX" firstAttribute="top" secondItem="v6U-Bg-inS" secondAttribute="bottom" id="0aS-gk-B41"/>
+                            <constraint firstAttribute="trailing" secondItem="qVz-hG-FaX" secondAttribute="trailing" id="ADD-uE-roP"/>
+                            <constraint firstItem="qVz-hG-FaX" firstAttribute="top" secondItem="v6U-Bg-inS" secondAttribute="bottom" id="Qct-fW-bmd"/>
+                            <constraint firstItem="qVz-hG-FaX" firstAttribute="leading" secondItem="kqT-18-Qei" secondAttribute="leading" id="RzP-I3-W6E"/>
+                            <constraint firstItem="lfW-zY-Ut0" firstAttribute="top" secondItem="qVz-hG-FaX" secondAttribute="bottom" id="SBl-Pd-JYu"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="fEP-Sl-zhD"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="SIimon" image="link.circle.fill" catalog="system" id="26z-sY-Iuz"/>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="7hr-mg-lMb"/>
@@ -343,7 +356,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="h8M-eG-mIa"/>
+        <segue reference="VBo-Ix-GKl"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="command" catalog="system" width="128" height="115"/>

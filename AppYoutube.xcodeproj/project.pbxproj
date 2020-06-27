@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,7 +17,6 @@
 		240F0F632494E5CC00BA05D9 /* DetailsUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240F0F622494E5CC00BA05D9 /* DetailsUIViewController.swift */; };
 		241650C12494D53F00EB9C76 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241650C02494D53F00EB9C76 /* VideoTableViewCell.swift */; };
 		241650C32494D7B400EB9C76 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241650C22494D7B400EB9C76 /* CacheManager.swift */; };
-		244B7531249EE684006FCC06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 244B7530249EE684006FCC06 /* GoogleService-Info.plist */; };
 		2471B6FA2488444B00B471F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2471B6F92488444B00B471F8 /* AppDelegate.swift */; };
 		2471B6FC2488444B00B471F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2471B6FB2488444B00B471F8 /* SceneDelegate.swift */; };
 		2471B6FE2488444B00B471F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2471B6FD2488444B00B471F8 /* ViewController.swift */; };
@@ -25,11 +24,13 @@
 		2471B7032488445000B471F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2471B7022488445000B471F8 /* Assets.xcassets */; };
 		2471B7062488445000B471F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2471B7042488445000B471F8 /* LaunchScreen.storyboard */; };
 		24F091ED249E155600C60E15 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F091EC249E155500C60E15 /* IndexViewController.swift */; };
+		29D5D35124A72CD9006356D6 /* l.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 29D5D35024A72CD9006356D6 /* l.mp4 */; };
+		29D5D35324A72DF7006356D6 /* ketnet.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 29D5D35224A72DF7006356D6 /* ketnet.mp4 */; };
+		29D5D35624A73A88006356D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29D5D35524A73A88006356D6 /* GoogleService-Info.plist */; };
 		4C7D78ED851C52FD23D76653 /* libPods-AppYoutube.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9626AAF9439AD5F2F3908D0C /* libPods-AppYoutube.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2408D2AF249F10380083BF19 /* loginb.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loginb.mp4; sourceTree = "<group>"; };
 		2408D2B0249F41BC0083BF19 /* Uitilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uitilities.swift; sourceTree = "<group>"; };
 		2408D2B2249F487F0083BF19 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		240ECF542488CB0E0006A449 /* MesNotes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = MesNotes.rtf; sourceTree = "<group>"; };
@@ -40,7 +41,6 @@
 		240F0F622494E5CC00BA05D9 /* DetailsUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsUIViewController.swift; sourceTree = "<group>"; };
 		241650C02494D53F00EB9C76 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		241650C22494D7B400EB9C76 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
-		244B7530249EE684006FCC06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		244B7532249EF0AD006FCC06 /* AppYoutube.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppYoutube.entitlements; sourceTree = "<group>"; };
 		2471B6F62488444B00B471F8 /* AppYoutube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppYoutube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2471B6F92488444B00B471F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +51,9 @@
 		2471B7052488445000B471F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2471B7072488445000B471F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24F091EC249E155500C60E15 /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		29D5D35024A72CD9006356D6 /* l.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = l.mp4; sourceTree = "<group>"; };
+		29D5D35224A72DF7006356D6 /* ketnet.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ketnet.mp4; sourceTree = "<group>"; };
+		29D5D35524A73A88006356D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9285EB50F9A4E272CD7191BD /* Pods-AppYoutube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppYoutube.debug.xcconfig"; path = "Target Support Files/Pods-AppYoutube/Pods-AppYoutube.debug.xcconfig"; sourceTree = "<group>"; };
 		9626AAF9439AD5F2F3908D0C /* libPods-AppYoutube.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppYoutube.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B573A4853C6FF7322912E908 /* Pods-AppYoutube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppYoutube.release.xcconfig"; path = "Target Support Files/Pods-AppYoutube/Pods-AppYoutube.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,14 +78,6 @@
 				B573A4853C6FF7322912E908 /* Pods-AppYoutube.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		2408D2AE249F10270083BF19 /* Media */ = {
-			isa = PBXGroup;
-			children = (
-				2408D2AF249F10380083BF19 /* loginb.mp4 */,
-			);
-			path = Media;
 			sourceTree = "<group>";
 		};
 		2408E34324A5424A008CD81A /* Helpers */ = {
@@ -130,6 +125,8 @@
 		2471B6ED2488444B00B471F8 = {
 			isa = PBXGroup;
 			children = (
+				29D5D35424A72DFD006356D6 /* Media */,
+				2408E34324A5424A008CD81A /* Helpers */,
 				2471B6F82488444B00B471F8 /* AppYoutube */,
 				2471B6F72488444B00B471F8 /* Products */,
 				81136B65F5214E669AC2479A /* Frameworks */,
@@ -153,14 +150,21 @@
 				2471B6FB2488444B00B471F8 /* SceneDelegate.swift */,
 				2408E34524A542F3008CD81A /* StoryBoards */,
 				2408E34424A5427B008CD81A /* ViewsControllers */,
-				2408E34324A5424A008CD81A /* Helpers */,
 				2434071D249F673F007520D6 /* Models */,
-				2408D2AE249F10270083BF19 /* Media */,
 				2471B7022488445000B471F8 /* Assets.xcassets */,
 				2471B7072488445000B471F8 /* Info.plist */,
-				244B7530249EE684006FCC06 /* GoogleService-Info.plist */,
+				29D5D35524A73A88006356D6 /* GoogleService-Info.plist */,
 			);
 			path = AppYoutube;
+			sourceTree = "<group>";
+		};
+		29D5D35424A72DFD006356D6 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				29D5D35224A72DF7006356D6 /* ketnet.mp4 */,
+				29D5D35024A72CD9006356D6 /* l.mp4 */,
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 		81136B65F5214E669AC2479A /* Frameworks */ = {
@@ -199,6 +203,7 @@
 		2471B6EE2488444B00B471F8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Nadia Mettioui";
@@ -231,11 +236,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29D5D35124A72CD9006356D6 /* l.mp4 in Resources */,
 				240ECF552488CB0E0006A449 /* MesNotes.rtf in Resources */,
 				2471B7062488445000B471F8 /* LaunchScreen.storyboard in Resources */,
 				2471B7032488445000B471F8 /* Assets.xcassets in Resources */,
 				2471B7012488444B00B471F8 /* Main.storyboard in Resources */,
-				244B7531249EE684006FCC06 /* GoogleService-Info.plist in Resources */,
+				29D5D35324A72DF7006356D6 /* ketnet.mp4 in Resources */,
+				29D5D35624A73A88006356D6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
